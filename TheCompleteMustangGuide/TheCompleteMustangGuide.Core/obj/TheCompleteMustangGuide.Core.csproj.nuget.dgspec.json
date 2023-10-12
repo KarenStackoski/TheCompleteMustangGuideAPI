@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\labdeps\\source\\repos\\TheCompleteMustangGuide\\TheCompleteMustangGuide.Core\\TheCompleteMustangGuide.Core.csproj": {}
+    "D:\\user\\TheCompleteMustangGuideAPI\\TheCompleteMustangGuide\\TheCompleteMustangGuide.Core\\TheCompleteMustangGuide.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\labdeps\\source\\repos\\TheCompleteMustangGuide\\TheCompleteMustangGuide.Core\\TheCompleteMustangGuide.Core.csproj": {
+    "D:\\user\\TheCompleteMustangGuideAPI\\TheCompleteMustangGuide\\TheCompleteMustangGuide.Core\\TheCompleteMustangGuide.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\labdeps\\source\\repos\\TheCompleteMustangGuide\\TheCompleteMustangGuide.Core\\TheCompleteMustangGuide.Core.csproj",
+        "projectUniqueName": "D:\\user\\TheCompleteMustangGuideAPI\\TheCompleteMustangGuide\\TheCompleteMustangGuide.Core\\TheCompleteMustangGuide.Core.csproj",
         "projectName": "TheCompleteMustangGuide.Core",
-        "projectPath": "C:\\Users\\labdeps\\source\\repos\\TheCompleteMustangGuide\\TheCompleteMustangGuide.Core\\TheCompleteMustangGuide.Core.csproj",
-        "packagesPath": "C:\\Users\\labdeps\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\labdeps\\source\\repos\\TheCompleteMustangGuide\\TheCompleteMustangGuide.Core\\obj\\",
+        "projectPath": "D:\\user\\TheCompleteMustangGuideAPI\\TheCompleteMustangGuide\\TheCompleteMustangGuide.Core\\TheCompleteMustangGuide.Core.csproj",
+        "packagesPath": "C:\\Users\\karen\\.nuget\\packages\\",
+        "outputPath": "D:\\user\\TheCompleteMustangGuideAPI\\TheCompleteMustangGuide\\TheCompleteMustangGuide.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\labdeps\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\karen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,227 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\user\\TheCompleteMustangGuideAPI\\TheCompleteMustangGuide\\TheCompleteMustangGuide.SharedKernel\\TheCompleteMustangGuide.SharedKernel.csproj": {
+                "projectPath": "D:\\user\\TheCompleteMustangGuideAPI\\TheCompleteMustangGuide\\TheCompleteMustangGuide.SharedKernel\\TheCompleteMustangGuide.SharedKernel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Ardalis.ApiEndpoints": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Ardalis.EFCore.Extensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Ardalis.GuardClauses": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "Ardalis.HttpClientTestExtensions": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Ardalis.ListStartupServices": {
+              "target": "Package",
+              "version": "[1.1.4, )"
+            },
+            "Ardalis.Result": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Ardalis.Result.AspNetCore": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Ardalis.Specification": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Ardalis.Specification.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.7.2, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.5, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.22.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.22.0, )"
+            },
+            "MongoDB.Driver.Core": {
+              "target": "Package",
+              "version": "[2.22.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.69, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.2.4, )"
+            },
+            "NLog.Mongo": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.4, )"
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.6.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[7.0.6, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "ReportGenerator": {
+              "target": "Package",
+              "version": "[5.1.26, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\user\\TheCompleteMustangGuideAPI\\TheCompleteMustangGuide\\TheCompleteMustangGuide.SharedKernel\\TheCompleteMustangGuide.SharedKernel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\user\\TheCompleteMustangGuideAPI\\TheCompleteMustangGuide\\TheCompleteMustangGuide.SharedKernel\\TheCompleteMustangGuide.SharedKernel.csproj",
+        "projectName": "TheCompleteMustangGuide.SharedKernel",
+        "projectPath": "D:\\user\\TheCompleteMustangGuideAPI\\TheCompleteMustangGuide\\TheCompleteMustangGuide.SharedKernel\\TheCompleteMustangGuide.SharedKernel.csproj",
+        "packagesPath": "C:\\Users\\karen\\.nuget\\packages\\",
+        "outputPath": "D:\\user\\TheCompleteMustangGuideAPI\\TheCompleteMustangGuide\\TheCompleteMustangGuide.SharedKernel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\karen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,6 +264,162 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Ardalis.ApiEndpoints": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Ardalis.EFCore.Extensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Ardalis.GuardClauses": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "Ardalis.HttpClientTestExtensions": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Ardalis.ListStartupServices": {
+              "target": "Package",
+              "version": "[1.1.4, )"
+            },
+            "Ardalis.Result": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Ardalis.Result.AspNetCore": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Ardalis.Specification": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Ardalis.Specification.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.7.2, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.5, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.22.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.22.0, )"
+            },
+            "MongoDB.Driver.Core": {
+              "target": "Package",
+              "version": "[2.22.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.69, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.2.4, )"
+            },
+            "NLog.Mongo": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.4, )"
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.6.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[7.0.6, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "ReportGenerator": {
+              "target": "Package",
+              "version": "[5.1.26, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.5.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -59,7 +436,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
